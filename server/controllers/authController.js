@@ -104,3 +104,5 @@ const me = async (req, res) => {
         }
     });
 };
+
+module.exports = { register, login, logout, me };
